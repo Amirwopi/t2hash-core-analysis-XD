@@ -22,8 +22,8 @@
 
 * فایل اصلی یک ELF stripped بود.
 * داخلش `execvp` استفاده شده بود.
-* فایل در نهایت `/bin/bash` را اجرا می‌کرد.
-* payload اصلی با runtime dump بیرون کشیده شد.
+* فایل در نهایت `/bin/bash` را اجرا می‌کرد
+* 
 * payload واقعی یک Bash installer بود.
 * این Bash installer بعداً خودش فایل Assembly داخل `/root` می‌سازد.
 * یعنی Assembly وجود دارد، ولی نه اون‌جوری که تبلیغ شده بود.
