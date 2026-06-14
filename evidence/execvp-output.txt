@@ -1,0 +1,10 @@
+execvp result:
+
+file: /bin/bash
+argv[0]: /root/quarantine/t2hash-deploy.suspicious
+argv[1]: -c
+argv[2]: exec '/root/quarantine/t2hash-deploy.suspicious' "$@"
+argv[3]: /root/quarantine/t2hash-deploy.suspicious
+
+Conclusion:
+The ELF launches /bin/bash and executes a hidden shell payload.

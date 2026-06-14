@@ -1,0 +1,13 @@
+Main findings:
+
+- Original file is a stripped ELF.
+- It imports execvp.
+- It does not directly import socket/connect/sendto/recvfrom.
+- Direct syscall instruction was not found in the wrapper path.
+- Runtime dump revealed a Bash installer.
+- The recovered Bash script writes Assembly source files to /root.
+- It installs nasm/build-essential/wget/gzip.
+- It downloads gost from GitHub without checksum verification.
+- It creates systemd services as root.
+- It sets network buffer sysctl values.
+- It uses XOR 0x5A in generated ASM.

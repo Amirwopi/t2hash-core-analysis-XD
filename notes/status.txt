@@ -1,0 +1,6 @@
+Status:
+
+- Do not run the original ELF as root.
+- The recovered Bash script is stored for analysis only.
+- The recovered script is intentionally not executable.
+- The original binary is not included in this repository.
